@@ -20,7 +20,8 @@ python3 -m visdom.server
 #### eval
 1.如果没有进行过前面的train，请下载已经训练好的模型：
 2.python3 eval_voc.py
+
 #### perdict
-1.如果没有进行过前面的train，请下载已经训练好的模型： 
+1.如果没有进行过前面的train，请下载已经训练好的模型：
 2.python3 predict.py  
 会在predict_img文件夹输出预测结果
