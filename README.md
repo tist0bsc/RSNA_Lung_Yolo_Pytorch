@@ -18,12 +18,12 @@ python3 -m visdom.server
 3.python3 train.py  
 在训练时会在当前路径创建一个log日志，最后会生成两个pth，一个是loss最小的best.pth，一个是最终的yolo.pth
 #### eval
-1.如果没有进行过前面的train，请下载已经训练好的模型：链接：https://pan.baidu.com/s/1TQpavAV7stX5VVywK-lq_g 提取码：qpxg
+1.如果没有进行过前面的train，请下载已经训练好的模型，放在当前目录下：链接：https://pan.baidu.com/s/1TQpavAV7stX5VVywK-lq_g 提取码：qpxg
 
 2.python3 eval_voc.py
 
 #### perdict
-1.如果没有进行过前面的train，请下载已经训练好的模型：链接：https://pan.baidu.com/s/1TQpavAV7stX5VVywK-lq_g 提取码：qpxg
+1.如果没有进行过前面的train，请下载已经训练好的模型，放在当前目录下：链接：https://pan.baidu.com/s/1TQpavAV7stX5VVywK-lq_g 提取码：qpxg
 
 2.python3 predict.py  
 会在predict_img文件夹输出预测结果
