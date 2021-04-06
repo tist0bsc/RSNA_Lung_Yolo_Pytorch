@@ -15,6 +15,7 @@ CUDA10.1、python3.6、pytorch1.1.0、GPU:2080Ti*1
 1.建议运行先启动visdom:
 python3 -m visdom.server  
 2.下载处理好的数据集和对于的txt文件，放在当前目录下：链接：https://pan.baidu.com/s/1TQpavAV7stX5VVywK-lq_g 提取码：qpxg 
+
 3.python3 train.py  
 在训练时会在当前路径创建一个log日志，最后会生成两个pth，一个是loss最小的best.pth，一个是最终的yolo.pth
 #### eval
