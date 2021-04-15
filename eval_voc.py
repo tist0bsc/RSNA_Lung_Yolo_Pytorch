@@ -3,7 +3,8 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import numpy as np
 
-
+VOC_CLASSES = (    # always index 0
+    'health', 'unhealth')
 def voc_ap(rec,prec,use_07_metric=False):
     if use_07_metric:
         # 11 point metric
